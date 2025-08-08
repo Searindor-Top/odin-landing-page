@@ -87,6 +87,34 @@ a, a:visited, a:hover, a:active {
     font-weight:bold;
 }
 
+.cta-cont-cont{
+    background-color:#3888f6;
+    color:white;
+    border-radius:8px;
+    padding:2em 4em;
+}
+
+.cta-text{
+    line-height: 1.25;
+}
+
+.cta-text h2{
+    font-size:1.25em;
+}
+
+.cta-button{
+    background-color:#3888f6;
+    border: 3px solid white;
+    padding:0.5em 2em;
+    border-radius:8px;
+}
+
+.cta-button a{
+   color:white;
+}
+
+
+
 
 @font-face {
     font-family: "Roboto";
