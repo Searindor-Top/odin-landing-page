@@ -1,0 +1,39 @@
+html{
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+.header-cont{
+    background-color: #f3f3f3;
+    padding:8px 32px;
+}
+
+.header-cont h1{
+    font-size:2em;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', "Roboto", sans-serif;
+}
+
+.header-links{
+    gap:16px;
+    color:black;
+}
+
+
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: bold;
+    src: url(../fonts/Roboto/Roboto-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: italic;
+    src: url(../fonts/Roboto/Roboto-Italic.ttf) format("truetype");
+}
