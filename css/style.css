@@ -30,10 +30,10 @@ a, a:visited, a:hover, a:active {
     background-color: #f3f3f3;
 }
 
-.hero-cont h1{
+.hero-cont h1, .testim-title{
     font-size:1.5em;
     font-weight:bold;
-    line-height:1.5em;
+    line-height:1.5;
     padding-top:0.75em;
 }
 
@@ -53,6 +53,24 @@ a, a:visited, a:hover, a:active {
     color:white;
     border-radius:0.5em;
 }
+
+.testim-box{
+    text-align: center;
+    line-height: 1.25;
+}
+
+.testim-img{
+    margin:2em 2em 0 2em;
+    border: 3px solid #0000EE;
+    border-radius:1em;
+    overflow: hidden;
+}
+
+.testim-box p{
+    padding:1em;
+}
+
+
 
 
 @font-face {
