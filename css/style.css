@@ -70,7 +70,22 @@ a, a:visited, a:hover, a:active {
     padding:1em;
 }
 
+.quote-cont{
+    padding:4em 2em;
+    background-color: #f3f3f3;
+}
 
+.quote-text{
+    padding-left:2em;
+    line-height: 1.25;
+    font-size:36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-author{
+    font-weight:bold;
+}
 
 
 @font-face {
@@ -88,4 +103,11 @@ a, a:visited, a:hover, a:active {
     font-family: "Roboto";
     font-style: italic;
     src: url(../fonts/Roboto/Roboto-Italic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: lighter;
+    font-style: italic;
+    src: url(../fonts/Roboto/Roboto-LightItalic.ttf) format("truetype");
 }
