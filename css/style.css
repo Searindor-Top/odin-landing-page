@@ -47,6 +47,7 @@ a, a:visited, a:hover, a:active {
 }
 
 .hero-button{
+    margin-top:1em;
     padding-top:0.75em;
 }
 
@@ -89,6 +90,7 @@ a, a:visited, a:hover, a:active {
 
 .quote-author{
     font-weight:bold;
+    margin-top:1.5em;
 }
 
 .cta-cont{
