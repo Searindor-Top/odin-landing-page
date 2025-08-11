@@ -6,6 +6,10 @@ html{
     padding:8px 32px;
 }
 
+.page-max-width{
+    max-width: 1500px;
+}
+
 a, a:visited, a:hover, a:active {
     /* Defaulting all link interactions to the <a> tag color */
 	color:#0000EE;
@@ -106,23 +110,25 @@ a, a:visited, a:hover, a:active {
     font-size:1.25em;
 }
 
-.cta-button{
+.cta-button a{
+    color:white;
+    padding:0.5em 2em;
+    display:block;
     background-color:#3888f6;
     border: 3px solid white;
     padding:0.5em 2em;
     border-radius:8px;
 }
 
-.cta-button a{
-   color:white;
-}
-
 .footer{
     background-color:#1f2937;
     color:white;
-    padding:40px 64px;
+    padding:2em 4em;
 }
 
+.padding-cont{
+    padding:3em 1em;
+}
 
 @font-face {
     font-family: "Roboto";
